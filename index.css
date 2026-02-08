@@ -216,7 +216,8 @@ body:not(.user-is-tabbing) a:focus {
 .btn {
     position: relative;
     display: inline-block;
-    padding: 1rem 4.2rem;
+    padding: 1.5rem 3.5rem;
+    font-size: 1.7rem;
     text-decoration: none;
     color: inherit;
     border: 1px solid  var(--secondary);
@@ -246,17 +247,17 @@ body:not(.user-is-tabbing) a:focus {
     background: var(--secondary);
 }
 
-.btn--pink {
+.btn--secondary {
     background: var(--secondary);
     transition: all 0.2s;
 }
 
-.btn--pink::after {
+.btn--secondary::after {
     display: none;
 }
 
-.btn--pink:hover,
-.btn--pink:focus {
+.btn--secondary:hover,
+.btn--secondary:focus {
     background: transparent;
 }
 
@@ -453,7 +454,13 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__box:not(:last-child) {
-    margin-bottom: 25rem;
+    margin-bottom: 15rem;
+}
+
+.work__more {
+    display: flex;
+    justify-content: center;
+    margin-top: -5rem;
 }
 
 @media(max-width: 500px) {

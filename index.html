@@ -1,49 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Put your site title here -->
-  <title>
-    Jaden Chen | Game Programmer
-  </title>
+  <title>Jaden Chen | Game Programmer</title>
 
-  <meta name="description" content="Game Programmer">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc.) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <meta name="description" content="Game Programmer based in Toronto">
   <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
 
   <!-- ***** Header ***** -->
-
   <header class="header" role="banner" id="top">
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
-          <!--<li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>-->
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
     </div>
+    
     <div class="header__text-box row">
       <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Jaden Chen</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
+        <h1 class="heading-primary">Jaden Chen</h1>
         <p>Game Programmer</p>
-        <a href="#work" class="btn">Check out my projects</a>
+        <a href="#work" class="btn btn--secondary">Check out my work</a>
       </div>
     </div>
   </header>
@@ -54,7 +39,7 @@
 
     <section class="work" id="work">
       <div class="row">
-        <h2>My Projects</h2>
+        <h2>My Work </h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
@@ -62,9 +47,7 @@
           <div class="work__box">
             <div class="work__text">
               <h3>Universus</h3>
-              <p>
-                An Auto Battle simulator for Ontario Tech University and Durham College in collaboration with Full Circle CS.
-              </p>
+              <p>An Auto Battle simulator for Ontario Tech University and Durham College in collaboration with Full Circle CS.</p>
               <ul class="work__list">
                 <li>Godot 3D</li>
                 <li>GDScript/C#</li>
@@ -73,9 +56,7 @@
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                  View More <span>&rarr;</span>
-                </a>
+                <a href="#" class="link__text">View Project <span>&rarr;</span></a>
               </div>
             </div>
             <div class="work__image-box">
@@ -86,9 +67,7 @@
           <div class="work__box">
             <div class="work__text">
               <h3>Wompus Jompus</h3>
-              <p>
-                A 3D Metroidvania Platformer game developed in my 2nd year of study at Ontario Tech University.
-              </p>
+              <p>A 3D Metroidvania Platformer game developed in my 2nd year of study at Ontario Tech University.</p>
               <ul class="work__list">
                 <li>Unity 3D</li>
                 <li>C#</li>
@@ -97,9 +76,7 @@
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                  View More <span>&rarr;</span>
-                </a>
+                <a href="#" class="link__text">View Project <span>&rarr;</span></a>
                 <a href="https://github.com/HoppXR/Platformer-Metroidvania-Game">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
@@ -113,9 +90,7 @@
           <div class="work__box">
             <div class="work__text">
               <h3>Germ Jam</h3>
-              <p>
-                A Multiplayer party game developed for the Ludem Dare 56 Game Jam.
-              </p>
+              <p>A Multiplayer party game developed for the Ludem Dare 56 Game Jam.</p>
               <ul class="work__list">
                 <li>Unity 3D</li>
                 <li>C#/Netcode</li>
@@ -124,9 +99,7 @@
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                  View More <span>&rarr;</span>
-                </a>
+                <a href="#" class="link__text">View Project <span>&rarr;</span></a>
                 <a href="https://github.com/HoppXR/LudemDare56">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
@@ -136,21 +109,12 @@
               <img src="./images/GermJam.png" class="work__image" alt="Project 3" />
             </div>
           </div>
+          <div class="work__more">
+          <a href="projects.html" class="btn btn--secondary">View all projects</a>
+          </div>
         </div>
       </div>
     </section>
-
-    <!-- ***** Clients ***** -->
-
-    <!--<section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          &lt;!&ndash; Add logos of the clients or companies you'have worked with. &ndash;&gt;
-          <img src="./images/.png" class="client__logo" alt="Company 1" />
-        </div>
-      </div>
-    </section>-->
 
     <!-- ***** About ***** -->
 
@@ -159,7 +123,7 @@
         <h2>About Me</h2>
         <div class="about__content">
           <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
+            <h3>Hey, I'm Jaden!</h3>
             <p>
               I'm a Game Programmer who loves to work on Gameplay and Systems. 
               When it comes to programming I always strive for modularity and performance.
@@ -169,14 +133,13 @@
               I am currently in my 3rd year of study at Ontario Tech University's 
               Game Development and Interactive Media program.
             </p>
-            <!-- Provide a link to your resume -->
+
+            <!-- resume link -->
             <a href="#" class="btn">My Resume</a>
           </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/JadenChen.jpg" alt="" />
-          </div>
+            <div class="about__photo-container">
+              <img class="about__photo" src="./images/JadenChen.jpg" alt="" />
+            </div>
         </div>
       </div>
     </section>
