@@ -6,14 +6,14 @@
     font-family: 'Hk Grotesk';
     font-style: normal;
     font-weight: 400;
-    src: url('./fonts/HKGrotesk-Regular.woff') format('woff');
+    src: url('../fonts/HKGrotesk-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
-    src: url('./fonts/Jost-Regular.ttf') format('woff');
+    src: url('../fonts/Jost-Regular.ttf') format('woff');
 }
 
 * {
@@ -406,7 +406,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('../images/header.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -414,9 +414,9 @@ body:not(.user-is-tabbing) a:focus {
     font-size: var(--font-size-normal);
 }
 
-.header__sub {
+.header__projects {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)),
-    url('./images/header2.jpg');
+    url('../images/header2.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -669,3 +669,8 @@ body:not(.user-is-tabbing) a:focus {
     justify-content: center;
     margin-top: 5rem;
 }
+
+/* --------------------------------------- */
+/* ----- Portfolio Pieces ----- */
+/* --------------------------------------- */
+
